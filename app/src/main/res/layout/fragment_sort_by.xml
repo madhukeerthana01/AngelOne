@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Watchlist.SortByFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/az"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:text="A-Z Alphabetically"/>
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/az"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/AtoZ"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/btn_login"
+            android:layout_weight="1"
+            android:text="A to Z" />
+
+        <Button
+            android:id="@+id/ZtoA"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_login"
+            android:text="Z to A" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/LTP"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/az"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="100dp"
+        android:text="LTP Change (Percentage)"/>
+    <LinearLayout
+        android:id="@+id/buttonLayout1"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LTP"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/hightolow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/btn_login"
+            android:layout_weight="1"
+            android:text="High to Low" />
+
+        <Button
+            android:id="@+id/lowtohigh"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_login"
+            android:text="Low to High" />
+
+    </LinearLayout>
+
+</RelativeLayout>

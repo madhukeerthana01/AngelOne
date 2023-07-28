@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#20232c"
+    tools:context=".Portfolio.AllFragment">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:id="@+id/equity"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/equity" />
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:textColor="@color/white"
+        android:text="EQUITY" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_login"
+        android:text="GET STARTED"
+        android:id="@+id/equitybtn"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="90dp"/>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mutualfunds"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/mutualfunds" />
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/white"
+            android:text="MUTUAL FUNDS" />
+
+        <Button
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/mutualfundsbtn"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/btn_login"
+            android:text="START A SIP" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/sgb"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/sgb" />
+        <TextView
+            android:layout_width="110dp"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="SGB" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="90dp"
+            android:id="@+id/sgbbtn"
+            android:background="@drawable/btn_login"
+            android:text="GET STARTED" />
+
+    </LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:padding="40dp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:text="Tools" />
+ <LinearLayout
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="30dp"
+     android:orientation="horizontal">
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:background="@drawable/layouts_outline">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/baseline_percent_24" />
+        <TextView
+            android:layout_width="100dp"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Trades And Charges" />
+     </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:orientation="horizontal"
+        android:background="@drawable/layouts_outline">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/profit" />
+        <TextView
+            android:layout_width="100dp"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Profits And Loss" />
+    </LinearLayout>
+ </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/layouts_outline">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/mutualfnds" />
+            <TextView
+                android:layout_width="100dp"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="Active mutual Fund SIPs" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:orientation="horizontal"
+            android:background="@drawable/layouts_outline">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/stocks" />
+            <TextView
+                android:layout_width="100dp"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="Active Stock SIPs" />
+        </LinearLayout>
+    </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

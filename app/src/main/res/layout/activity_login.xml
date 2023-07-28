@@ -1,0 +1,81 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#20232c"
+    android:padding="15dp"
+    tools:context=".Login_Signup.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageTopLeft"
+                android:layout_width="127dp"
+                android:layout_marginEnd="100dp"
+                android:layout_height="59dp"
+                android:src="@drawable/logintl" />
+
+            <ImageView
+                android:id="@+id/imageTopRight"
+                android:layout_width="64dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/logintr" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="match_parent"
+            android:layout_height="503dp"
+            android:src="@drawable/image" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Best in class \ntrading platform"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Trade hassle-free in Stocks, Futures, and Options \nand Currencies of NSE, BSE, and MCX"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:id="@+id/buttonLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/loginButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_login"
+                android:layout_marginEnd="2dp"
+                android:layout_weight="1"
+                android:text="Login" />
+
+            <Button
+                android:id="@+id/signupButton"
+                android:layout_width="0dp"
+                android:layout_marginStart="2dp"
+                android:background="@drawable/btn_signup"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="SignUp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="40dp"
+    tools:context=".Home.HomeFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#20232c"
+        android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="-1dp">
+
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_width="30dp"
+            android:layout_height="24dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/baseline_account_circle_24" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/white"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Hi,Madhu" />
+
+        <ImageView
+            android:id="@+id/search"
+            android:layout_width="39dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/baseline_search_24" />
+
+        <ImageView
+            android:id="@+id/notification"
+            android:layout_width="40dp"
+            android:layout_height="24dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/baseline_circle_notifications_24" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:background="#20232c"
+        android:layout_width="match_parent"
+        android:layout_height="163dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="57dp"
+        android:contentDescription="view" />
+
+    <ImageButton
+        android:id="@+id/screenpage"
+        android:background="#20232c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/screennimage"
+        android:layout_below="@id/viewPager"
+        android:layout_marginTop="20dp" />
+        <TextView
+            android:id="@+id/view"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:text="VIEW MORE >>>"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="@drawable/btn_signup"/>
+
+        <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager1"
+        android:background="#20232c"
+        android:layout_width="match_parent"
+        android:layout_height="163dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/view"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="25dp"
+        android:contentDescription="view" />
+
+    <TextView
+        android:id="@+id/reward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/viewPager1"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="31dp"
+        android:text="Rewards and Offers"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/refer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+      android:layout_below="@id/viewPager1"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="20dp"
+        android:text="Refer Your Friends and Earn"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+        <ImageButton
+            android:id="@+id/screenpage2"
+            android:background="#20232c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/screennimage"
+            android:layout_marginTop="20dp" />
+
+
+    </LinearLayout>
+</ScrollView>
